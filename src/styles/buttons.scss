@@ -1,0 +1,47 @@
+.btn__add {
+    font-family: "Inter", sans-serif;
+    width: 6.625rem;
+    height: 40px;
+    border: 2px solid #bdbdbd;
+    border-radius: 8px;
+    padding: 0px, 20px, 0px, 20px;
+    gap: 10px;
+    font-weight: 600;
+    size: var(--font-size3);
+    line-height: 16.94px;
+
+    color: #ffffff;
+    background-color: #bdbdbd;
+
+    &:hover{
+        background-color: var(--color-primary);
+    }
+}
+
+.btn__remove {
+    font-family: "Inter", sans-serif;
+    width: 368px;
+    height: 440px;
+    border-radius: 8px;
+    padding: 0px, 20px, 0px, 20px;
+    gap: 10px;
+    size: var(--title);
+    line-height: 19.36px;
+
+    color: #ffffff;
+    background-color: #bdbdbd;
+}
+
+.btn__cart {
+    width: 29px;
+    height: 29px;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    size: var(--font-size2);
+    line-height: 25.3px;
+
+    color: #bdbdbd;
+    position: relative;
+}

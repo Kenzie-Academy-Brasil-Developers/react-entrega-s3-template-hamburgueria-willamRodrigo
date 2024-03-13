@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+%fonts{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.price {
+    @extend %fonts;
+    size: var(--body);
+    line-height: 24px;
+
+    color: var(--color-primary);
+}
+
+.caption {
+    @extend %fonts;
+    font-weight: 400;
+    size: var(--caption); 
+    line-height: 16px;
+
+    color: var(--grey-300);
+}
+
+.title3 {
+    @extend %fonts;
+    font-weight: 700;
+    size: var(--font-size3);
+    line-height: 24px;
+
+    color: var(--gray-600);
+}
+
+.title__modal{
+    @extend %fonts;
+    font-weight: 700;
+    size: var(--font-size3);
+    line-height: 28px;
+
+    color: #ffffff;
+}
+
+.title4 {
+    @extend %fonts;
+    font-weight: 700;
+    size: var(--font-size3);
+
+    color: var(--gray-600);
+}
+
+.text {
+    @extend %fonts;
+    size: var(--body);
+    line-height: 24px;
+
+    color: var(--color-primary);
+}
+
+.total {
+    @extend %fonts; 
+    size: var(--body-600);
+    line-height: 24px;
+
+    color: var(--gray-600);
+}

@@ -1,0 +1,44 @@
+.list__modal{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        .img__modal{
+            display: flex;
+            justify-content: center;
+            width: 82px;
+            height: 80px;
+            margin: 20px 20px 0px 20px;
+            border-radius: 5px;
+            background-color: var(--grey-100);
+        }
+
+        img{
+            width: 55px;
+            height: 53.49px;
+        }
+    }
+
+    .cart__desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        height: 80px;
+        margin-top: 20px;
+    }
+
+    button{
+        margin: 20px;
+        background-color: transparent;
+        color: #bdbdbd;
+        size: 18px;
+        font-weight: 900;
+        font-family: font awesome 5 free;
+    }
+}
